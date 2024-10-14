@@ -1,9 +1,14 @@
+import HeroSection from "./components/HeroSection";
+import NavBar from "./components/NavBar";
+
 function App() {
   return (
     <>
-      <h1>Ready Fit Go</h1>
+      <NavBar />
+      <HeroSection />
     </>
   );
 }
+
 
 export default App;
