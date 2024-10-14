@@ -10,8 +10,8 @@ const HeroSection = () => {
             <span className="text-primary">Lifestyle-</span>
           </h1>
           <p className="text-white text-opacity-40 mt-5 font-Inter">
-            At Ready Fit Go, we offer fresh meal prep options<br /> designed to help
-            you achieve your health and<br/> fitness goals—perfect for life on the
+            At Ready Fit Go, we offer fresh meal prep options designed to help
+            you achieve your health and fitness goals—perfect for life on the
             go!
           </p>
         </div>
