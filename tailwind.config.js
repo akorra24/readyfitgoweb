@@ -8,6 +8,11 @@ export default {
         secondary: "#68B268",
         background: "#121212",
       },
+      fontFamily: {
+        Inter: ["Inter", "sans-serif"],
+        Prata: ["Prata", "serif"],
+        Satoshi: ["Satoshi", "sans-serif"],
+      },
     },
   },
   plugins: [],

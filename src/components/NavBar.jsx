@@ -9,7 +9,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="bg-background p-6">
+    <nav className="bg-background p-6 font-Satoshi">
       <div className="container flex justify-between items-center px-5">
         <div>
           <img src={Logo} alt="Logo" />
