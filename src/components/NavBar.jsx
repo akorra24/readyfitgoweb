@@ -9,12 +9,12 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="bg-background py-6 px-5 lg:px-20 font-Satoshi">
+    <nav className="bg-background py-6 px-5 lg:px-32 font-Satoshi">
       <div className="flex justify-between items-center">
         <div>
           <img src={Logo} alt="Logo" />
         </div>
-        <div className="hidden lg:flex lg:space-x-16">
+        <div className="hidden lg:flex lg:space-x-8 xl:space-x-16">
           <a href="#" className="text-white py-2">
             Home
           </a>

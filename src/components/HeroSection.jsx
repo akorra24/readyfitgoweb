@@ -3,9 +3,9 @@ import ArrowRight from "../assets/arrow-right.svg";
 const HeroSection = () => {
   return (
     <div className="bg-background flex flex-col">
-      <div className="flex flex-col md:flex-row justify-between items-center py-10 px-5 lg:px-20">
-        <div className="flex flex-col max-w-md">
-          <h1 className="text-4xl text-white font-Prata">
+      <div className="flex flex-col md:flex-row justify-between items-center py-10 px-5 lg:px-32">
+        <div className="flex flex-col max-w-lg">
+          <h1 className="text-5xl text-white font-Prata">
             Open The Door for A Healthy{" "}
             <span className="text-primary">Lifestyle-</span>
           </h1>
@@ -24,7 +24,7 @@ const HeroSection = () => {
             <p>Calculate Your Macros</p>
             <img src={ArrowRight} alt="Arrow Icon" />
           </div>
-          <div className="flex flex-row space-x-4 text-white border-b-2 border-white pb-2 justify-between cursor-pointer">
+          <div className="flex flex-row space-x-16 text-white border-b-2 border-white pb-2 justify-between cursor-pointer">
             <p>Try Our Meal Generator</p>
             <img src={ArrowRight} alt="Arrow Icon" />
           </div>

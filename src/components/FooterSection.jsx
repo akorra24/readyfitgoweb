@@ -8,7 +8,7 @@ export default function FooterSection() {
   return (
     <footer>
       <div className="bg-background font-Satoshi text-white py-20 px-10 lg:px-40 flex flex-col gap-10 ">
-        <div className="text-center px-5 lg:px-60 flex flex-col gap-10">
+        <div className="text-center px-5 xl:px-60 flex flex-col gap-10">
           <div className="text-4xl font-semibold">
             Fresh. Convenient. Local.
           </div>
