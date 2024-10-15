@@ -25,7 +25,7 @@ const BenefitSection = () => {
           The ReadyFitGo <span className="text-primary">Method</span>
         </h2>
         <p className="text-black text-opacity-40 md:max-w-3xl">
-          At Ready Fit Go, we’ve perfected the formula for healthy, convenient
+          At Ready Fit Go, we&apos;ve perfected the formula for healthy, convenient
           eating. With chef-prepared, macro-friendly meals, no cooking is
           required—just heat, eat, and enjoy. Whether you want delivery to your
           door or in-store pickup, our flexible options fit into any lifestyle.
@@ -35,7 +35,7 @@ const BenefitSection = () => {
         </p>
       </div>
       <div className="flex flex-col md:flex-row items-center justify-between my-10">
-        <div className="flex flex-col gap-10 pl-20 md:pl-10 lg:pl-32">
+        <div className="flex flex-col gap-10 px-5 md:pl-10 lg:pl-32">
           <div className="flex flex-col gap-2">
             <div className="flex items-center justify-center w-14 h-14 bg-secondary rounded-full">
               <p className="text-white text-3xl font-bold">1</p>
