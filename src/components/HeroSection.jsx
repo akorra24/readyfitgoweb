@@ -3,7 +3,7 @@ import ArrowRight from "../assets/arrow-right.svg";
 const HeroSection = () => {
   return (
     <div className="bg-background flex flex-col">
-      <div className="flex flex-row justify-between items-center py-10 flex-wrap px-5 lg:px-20">
+      <div className="flex flex-col md:flex-row justify-between items-center py-10 px-5 lg:px-20">
         <div className="flex flex-col max-w-md">
           <h1 className="text-4xl text-white font-Prata">
             Open The Door for A Healthy{" "}
@@ -15,7 +15,7 @@ const HeroSection = () => {
             go!
           </p>
         </div>
-        <div className="flex flex-col space-y-4 mt-5 md:mt-0 font-Satoshi">
+        <div className="flex flex-col space-y-4 mt-5 md:mt-0 w-full md:w-auto font-Satoshi">
           <div className="flex flex-row space-x-4 text-white border-b-2 border-white pb-2 justify-between cursor-pointer">
             <p>Browse Our Meals</p>
             <img src={ArrowRight} alt="Arrow Icon" />
