@@ -24,19 +24,22 @@ export default function LocationSection() {
           {/* column 01 image 01 */}
           <div className="flex flex-col gap-2">
             <div>
-              <img
-                src={westHollywood}
-                alt="West Hollywood"
-                className="w-72"
-              />
+              <img src={westHollywood} alt="West Hollywood" className="w-72" />
             </div>
             <div className="flex justify-between">
-              <p className="font-semibold text-lg text-slate-500 underline">
+              <a
+                href="tel:+14243821300"
+                className="font-semibold text-lg text-slate-500 underline"
+              >
                 (424) 382-1300
-              </p>
-              <button className="border-2 border-background rounded-lg text-sm px-1">
+              </a>
+              <a
+                href="https://maps.app.goo.gl/WQ6W8fX1EFnvZ1ex7"
+                target="_blank"
+                className="border-2 border-background rounded-lg text-sm p-1"
+              >
                 View Directions
-              </button>
+              </a>
             </div>
             <h2 className="text-2xl font-semibold">West Hollywood</h2>
           </div>
@@ -47,12 +50,19 @@ export default function LocationSection() {
               <img src={torrance} alt="torrance" className="w-72" />
             </div>
             <div className="flex justify-between">
-              <p className="font-semibold text-lg text-slate-500 underline">
+              <a
+                href="tel:+14243989218"
+                className="font-semibold text-lg text-slate-500 underline"
+              >
                 (424) 398-9218
-              </p>
-              <button className="border-2 border-background rounded-lg text-sm px-1">
+              </a>
+              <a
+                href="https://maps.app.goo.gl/nYhWZyYf7ZePSpPh8"
+                target="_blank"
+                className="border-2 border-background rounded-lg text-sm p-1"
+              >
                 View Directions
-              </button>
+              </a>
             </div>
             <h2 className="text-2xl font-semibold">Torrance</h2>
           </div>
@@ -61,19 +71,22 @@ export default function LocationSection() {
           {/* column 02 image 01 */}
           <div className="flex flex-col gap-2">
             <div>
-              <img
-                src={hermosa}
-                alt="hermosa beach"
-                className="w-96"
-              />
+              <img src={hermosa} alt="hermosa beach" className="w-96" />
             </div>
             <div className="flex justify-between">
-              <p className="font-semibold text-lg text-slate-500 underline">
+              <a
+                href="tel:+13103183188"
+                className="font-semibold text-lg text-slate-500 underline"
+              >
                 (310) 318-3188
-              </p>
-              <button className="border-2 border-background rounded-lg text-sm px-1">
+              </a>
+              <a
+                href="https://maps.app.goo.gl/pYbUqBKEYTkhWXqMA"
+                target="_blank"
+                className="border-2 border-background rounded-lg text-sm p-1"
+              >
                 View Directions
-              </button>
+              </a>
             </div>
             <h2 className="text-2xl font-semibold">Hermosa Beach</h2>
           </div>
@@ -85,12 +98,19 @@ export default function LocationSection() {
               <img src={corona} alt="corona" className="w-72" />
             </div>
             <div className="flex justify-between">
-              <p className="font-semibold text-lg text-slate-500 underline">
+              <a
+                href="tel:+19513643060"
+                className="font-semibold text-lg text-slate-500 underline"
+              >
                 (951) 364-3060
-              </p>
-              <button className="border-2 border-background rounded-lg text-sm px-1">
+              </a>
+              <a
+                href="https://maps.app.goo.gl/XtyKNuKC5tqZdWX87"
+                target="_blank"
+                className="border-2 border-background rounded-lg text-sm p-1"
+              >
                 View Directions
-              </button>
+              </a>
             </div>
             <h2 className="text-2xl font-semibold">Corona</h2>
           </div>
@@ -101,12 +121,19 @@ export default function LocationSection() {
               <img src={silver} alt="silver lake" className="w-72" />
             </div>
             <div className="flex justify-between">
-              <p className="font-semibold text-lg text-slate-500 underline">
+              <a
+                href="tel:+13239221009"
+                className="font-semibold text-lg text-slate-500 underline"
+              >
                 (323) 922-1009
-              </p>
-              <button className="border-2 border-background rounded-lg text-sm px-1">
+              </a>
+              <a
+                href="https://maps.app.goo.gl/T2LVdbbVUDVHwffs7"
+                target="_blank"
+                className="border-2 border-background rounded-lg text-sm p-1"
+              >
                 View Directions
-              </button>
+              </a>
             </div>
             <h2 className="text-2xl font-semibold">Silver Lake</h2>
           </div>
