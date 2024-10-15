@@ -9,12 +9,12 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="bg-background py-6 md:px-20 font-Satoshi">
-      <div className="container flex justify-between items-center px-5">
+    <nav className="bg-background py-6 px-5 lg:px-20 font-Satoshi">
+      <div className="flex justify-between items-center">
         <div>
           <img src={Logo} alt="Logo" />
         </div>
-        <div className="hidden md:flex lg:space-x-16 md:space-x-5">
+        <div className="hidden lg:flex lg:space-x-16">
           <a href="#" className="text-white py-2">
             Home
           </a>
@@ -31,7 +31,7 @@ const NavBar = () => {
             Shop Now
           </button>
         </div>
-        <div className="md:hidden">
+        <div className="lg:hidden">
           <button
             onClick={toggleMenu}
             className="text-white focus:outline-none"
@@ -54,7 +54,7 @@ const NavBar = () => {
         </div>
       </div>
       {isOpen && (
-        <div className="md:hidden px-4">
+        <div className="lg:hidden px-4">
           <a href="#" className="block text-white py-2">
             Home
           </a>

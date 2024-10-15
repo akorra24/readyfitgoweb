@@ -3,7 +3,7 @@ import ArrowRight from "../assets/arrow-right.svg";
 const HeroSection = () => {
   return (
     <div className="bg-background flex flex-col">
-      <div className="flex flex-row justify-between items-center p-10 flex-wrap md:px-20">
+      <div className="flex flex-row justify-between items-center py-10 flex-wrap px-5 lg:px-20">
         <div className="flex flex-col max-w-md">
           <h1 className="text-4xl text-white font-Prata">
             Open The Door for A Healthy{" "}
