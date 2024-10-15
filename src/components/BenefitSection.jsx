@@ -2,20 +2,20 @@ import ChefIcon from "../assets/chef.svg";
 const BenefitSection = () => {
   return (
     <section className="py-12 font-Satoshi">
-      <div className="flex flex-col md:flex-row justify-around items-center px-20 md:px-10 lg:px-32 my-10 gap-2">
-        <div className="flex items-center justify-start w-full">
+      <div className="flex flex-col md:flex-row justify-around items-center px-5 md:px-10 lg:px-32 my-10 gap-2">
+        <div className="flex items-center justify-start w-full md:w-auto md:flex-wrap lg:flex-nowrap">
           <img src={ChefIcon} alt="Chef Icon" width={120} />
           <p className="text-xl font-bold ml-5">Chef-Prepared Meals</p>
         </div>
-        <div className="flex items-center justify-start w-full">
+        <div className="flex items-center justify-start w-full md:w-auto md:flex-wrap lg:flex-nowrap">
           <img src={ChefIcon} alt="Chef Icon" width={120} />
           <p className="text-xl font-bold ml-5">Personalized Coaching</p>
         </div>
-        <div className="flex items-center justify-start w-full">
+        <div className="flex items-center justify-start w-full md:w-auto md:flex-wrap lg:flex-nowrap">
           <img src={ChefIcon} alt="Chef Icon" width={120} />
           <p className="text-xl font-bold ml-5">In-Store Pick-Up</p>
         </div>
-        <div className="flex items-center justify-start w-full">
+        <div className="flex items-center justify-start w-full md:w-auto md:flex-wrap lg:flex-nowrap">
           <img src={ChefIcon} alt="Chef Icon" width={120} />
           <p className="text-xl font-bold ml-5">Free Delivery</p>
         </div>
