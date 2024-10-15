@@ -12,7 +12,7 @@ export default function LocationSection() {
         <h2 className="text-4xl font-bold text-background mb-4">
           A World Of <span className="text-secondary">Choice</span>
         </h2>
-        <p className="px-8 md:max-w-3xl">
+        <p className="px-8 md:max-w-2xl text-center">
           Order online for delivery, or swing by one of our five in-store
           locations for a visit! Bonus: We also offer nutrition and fitness
           coaching to help you crush your goals. We’ve got all of Southern
