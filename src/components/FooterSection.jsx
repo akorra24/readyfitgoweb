@@ -25,22 +25,30 @@ export default function FooterSection() {
         </div>
         <div>
           <div className="flex flex-row justify-center items-center">
-            <div className="bg-white justify-center py-1 px-4 rounded-full flex items-center mr-7">
+            <a
+              href="https://www.facebook.com/RFGHermosaBeach/"
+              target="_blank"
+              className="bg-white justify-center py-1 px-4 rounded-full flex items-center mr-7"
+            >
               <img
                 src={FacebookLogo}
                 alt="Facebook Logo"
                 className="w-10 h-10"
               />
               <p className="text-black">Facebook</p>
-            </div>
-            <div className="bg-white justify-center py-1 px-4 rounded-full flex items-center">
+            </a>
+            <a
+              href="https://www.instagram.com/readyfitgo_cali/"
+              target="_blank"
+              className="bg-white justify-center py-1 px-4 rounded-full flex items-center"
+            >
               <img
                 src={InstagramLogo}
                 alt="Instagram Logo"
                 className="w-10 h-10"
               />
               <p className="text-black">Instagram</p>
-            </div>
+            </a>
           </div>
         </div>
         <hr className="bg-white"></hr>
@@ -49,7 +57,14 @@ export default function FooterSection() {
           <div className="text-center">
             <p className="font-semibold">
               2013 ReadyFitGo.
-              <span className="text-secondary"> Click Here </span>
+              <a
+                href="https://www.linkedin.com/company/ready-fit-go-corona"
+                target="_blank"
+                className="text-secondary"
+              >
+                {" "}
+                Click Here{" "}
+              </a>
               for Business Inquiries.
             </p>
           </div>
