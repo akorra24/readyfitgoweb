@@ -1,3 +1,4 @@
+import AboutSection from "./components/AboutSection";
 import BenefitSection from "./components/BenefitSection";
 import FooterSection from "./components/FooterSection";
 import HeroSection from "./components/HeroSection";
@@ -9,6 +10,7 @@ function App() {
       <NavBar />
       <HeroSection />
       <BenefitSection />
+      <AboutSection />
       <FooterSection />
     </>
   );
