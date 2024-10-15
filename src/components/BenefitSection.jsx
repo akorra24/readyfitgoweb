@@ -1,4 +1,7 @@
 import ChefIcon from "../assets/chef.svg";
+import CoachIcon from "../assets/coaching.svg";
+import DeliveryIcon from "../assets/delivery.svg";
+import PickupIcon from "../assets/pickup.svg";
 const BenefitSection = () => {
   return (
     <section className="py-12 font-Satoshi">
@@ -8,15 +11,15 @@ const BenefitSection = () => {
           <p className="text-xl font-bold ml-5">Chef-Prepared Meals</p>
         </div>
         <div className="flex items-center justify-start w-full md:w-auto md:flex-wrap lg:flex-nowrap">
-          <img src={ChefIcon} alt="Chef Icon" width={120} />
+          <img src={CoachIcon} alt="Chef Icon" width={120} />
           <p className="text-xl font-bold ml-5">Personalized Coaching</p>
         </div>
         <div className="flex items-center justify-start w-full md:w-auto md:flex-wrap lg:flex-nowrap">
-          <img src={ChefIcon} alt="Chef Icon" width={120} />
+          <img src={PickupIcon} alt="Chef Icon" width={120} />
           <p className="text-xl font-bold ml-5">In-Store Pick-Up</p>
         </div>
         <div className="flex items-center justify-start w-full md:w-auto md:flex-wrap lg:flex-nowrap">
-          <img src={ChefIcon} alt="Chef Icon" width={120} />
+          <img src={DeliveryIcon} alt="Chef Icon" width={120} />
           <p className="text-xl font-bold ml-5">Free Delivery</p>
         </div>
       </div>
