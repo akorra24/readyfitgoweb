@@ -9,23 +9,23 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="bg-background p-6 font-Satoshi">
+    <nav className="bg-background py-6 md:px-20 font-Satoshi">
       <div className="container flex justify-between items-center px-5">
         <div>
           <img src={Logo} alt="Logo" />
         </div>
-        <div className="hidden md:flex space-x-10">
+        <div className="hidden md:flex lg:space-x-16 md:space-x-5">
           <a href="#" className="text-white py-2">
             Home
           </a>
           <a href="#" className="text-white py-2">
-            About
+            View Meals
           </a>
           <a href="#" className="text-white py-2">
-            Services
+            Calculate Macros
           </a>
           <a href="#" className="text-white py-2">
-            Contact
+            Meal Generator
           </a>
           <button className="text-white font-bold py-2 px-8 border-2 border-white">
             Shop Now
@@ -54,18 +54,18 @@ const NavBar = () => {
         </div>
       </div>
       {isOpen && (
-        <div className="md:hidden">
-          <a href="#" className="block text-white py-2 px-4">
+        <div className="md:hidden px-4">
+          <a href="#" className="block text-white py-2">
             Home
           </a>
-          <a href="#" className="block text-white py-2 px-4">
-            About
+          <a href="#" className="block text-white py-2">
+            View Meals
           </a>
-          <a href="#" className="block text-white py-2 px-4">
-            Services
+          <a href="#" className="block text-white py-2">
+            Calculate Macros
           </a>
-          <a href="#" className="block text-white py-2 px-4">
-            Contact
+          <a href="#" className="block text-white py-2">
+            Meal Generator
           </a>
           <button className="text-white font-bold py-2 px-8 border-2 border-white">
             Shop Now
