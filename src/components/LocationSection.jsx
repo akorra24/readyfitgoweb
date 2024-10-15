@@ -20,14 +20,14 @@ export default function LocationSection() {
         </p>
       </div>
       <div className="flex gap-16 flex-wrap text-background justify-center my-10">
-        <div className="flex flex-col  gap-10">
+        <div className="flex flex-col  gap-6">
           {/* column 01 image 01 */}
           <div className="flex flex-col gap-2">
             <div>
               <img
                 src={westHollywood}
                 alt="West Hollywood"
-                className="w-full h-full"
+                className="w-72"
               />
             </div>
             <div className="flex justify-between">
@@ -44,7 +44,7 @@ export default function LocationSection() {
           {/* column 01 image 02 */}
           <div className="flex flex-col gap-2">
             <div>
-              <img src={torrance} alt="torrance" className="w-full h-full" />
+              <img src={torrance} alt="torrance" className="w-72" />
             </div>
             <div className="flex justify-between">
               <p className="font-semibold text-lg text-slate-500 underline">
@@ -59,13 +59,12 @@ export default function LocationSection() {
         </div>
         <div>
           {/* column 02 image 01 */}
-
           <div className="flex flex-col gap-2">
             <div>
               <img
                 src={hermosa}
                 alt="hermosa beach"
-                className="w-full h-full"
+                className="w-96"
               />
             </div>
             <div className="flex justify-between">
@@ -79,11 +78,11 @@ export default function LocationSection() {
             <h2 className="text-2xl font-semibold">Hermosa Beach</h2>
           </div>
         </div>
-        <div className="flex flex-col  gap-10">
+        <div className="flex flex-col  gap-6">
           {/* column 03 image 01 */}
           <div className="flex flex-col gap-2">
             <div>
-              <img src={corona} alt="corona" className="w-full h-full" />
+              <img src={corona} alt="corona" className="w-72" />
             </div>
             <div className="flex justify-between">
               <p className="font-semibold text-lg text-slate-500 underline">
@@ -99,7 +98,7 @@ export default function LocationSection() {
           {/* column 03 image 02 */}
           <div className="flex flex-col gap-2">
             <div>
-              <img src={silver} alt="silver lake" className="w-full h-full" />
+              <img src={silver} alt="silver lake" className="w-72" />
             </div>
             <div className="flex justify-between">
               <p className="font-semibold text-lg text-slate-500 underline">
