@@ -1,9 +1,10 @@
 import ClientsIcon from "../assets/clients.svg";
 import StarIcon from "../assets/Star.svg";
+import FAQSection from "./FAQSection";
 
 const AboutSection = () => {
   return (
-    <>
+    <div className="relative">
       <section className="flex flex-col md:flex-row items-center bg-background text-white">
         <div className="md:w-1/2 mb-6 md:mb-0 p-6 md:p-12 font-Satoshi">
           <h2 className="text-5xl font-bold mb-4">About Us</h2>
@@ -55,9 +56,11 @@ const AboutSection = () => {
             reach yours, too!
           </p>
         </div>
-        <div className="md:w-1/2"></div>
       </section>
-    </>
+      <div className="hidden lg:block absolute right-10 bottom-40 max-w-3xl">
+        <FAQSection />
+      </div>
+    </div>
   );
 };
 
